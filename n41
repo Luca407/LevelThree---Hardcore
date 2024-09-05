@@ -19,7 +19,6 @@ void decodificar_cesar(char *texto, int deslocamento) {
     // Decodificar é equivalente a codificar com deslocamento negativo
     codificar_cesar(texto, -deslocamento);
 }
-
 int main() {
     char texto[256];
     int deslocamento;
